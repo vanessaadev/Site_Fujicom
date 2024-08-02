@@ -4,12 +4,12 @@ import './Navbar.css'
 import '../../App.css'
 
 // Imagens
-import Logo  from '../../assets/img/logo.png'
+import Logo from '../../assets/img/logo.jpg'
 
 export default function Navbar() {
     return (
         <nav>
-            <div class="navContainer">
+            <div className="navContainer">
             <div className='logo'>
                 <img src={Logo} alt="Logo da Fujicom" />
             </div>
