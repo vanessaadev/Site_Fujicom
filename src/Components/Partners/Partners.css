@@ -1,0 +1,20 @@
+.partners {
+    margin: 2rem 8rem;
+}
+
+.partnersImg {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.partners h2 {
+    color: #1f3166;
+}
+
+.caixaParceiro {
+    padding: 3rem;
+    border: 1px solid #1f3166;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 7px rgb(117, 117, 117);
+}

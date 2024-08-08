@@ -1,14 +1,15 @@
 footer {
     margin: 0;
-    padding: 0;
+    padding: 0.2rem 0;
     box-sizing: border-box;
     background-color: #090c09;
-    color: #d0efb1;
+    color: #ccc;
 }
 
 .footer-Container {
     margin: 0 8rem;
     padding: 1rem 0;
+    flex: 1;
 }
 
 .footer-Container > .quadro1 {

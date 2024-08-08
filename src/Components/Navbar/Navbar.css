@@ -2,7 +2,7 @@ nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #8aaadf;
+    border-bottom: 2px solid #1f3166;
 }
 
 nav .navContainer {
@@ -40,7 +40,7 @@ nav li a {
 
 /* Mudança de cor e Criação da linha ao passar o mouse */
 nav li a:hover {
-    color: #f0e1e1;
+    color: #4c5572;
 }
 
 nav li a::after {
@@ -50,7 +50,7 @@ nav li a::after {
     bottom: -5px;
     width: 0;
     height: 3px;
-    background-color: #fff;
+    background-color: #1f3166;
     color: #fff;
     transition: width 0.2s, left 0.2s;
   }

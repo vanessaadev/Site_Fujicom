@@ -1,11 +1,13 @@
-import { Footer } from "../../Components/Footer/Footer";
-import Navbar from "../../Components/Navbar/Navbar";
+import React from "react";
+import { Apresentation } from "../../Components/Apresentation/Apresentation";
+import { Partners } from "../../Components/Partners/Partners";
+import { Layout } from "../../Components/Layout/Layout";
 
 export function HomePage() {
     return(
-        <>
-        <Navbar/>
-        <Footer/>
-        </>
+        <Layout>
+            <Apresentation/>
+            <Partners/>
+        </Layout>
     )
 }
